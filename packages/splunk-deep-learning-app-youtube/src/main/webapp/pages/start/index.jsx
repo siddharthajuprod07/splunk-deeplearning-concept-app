@@ -10,8 +10,6 @@ getUserTheme()
     .then((theme) => {
         layout(
             <StyledContainer>
-                <StyledGreeting>Hello, from inside SplunkDeepLearningAppYoutube!</StyledGreeting>
-                <div>Your component will appear below.</div>
                 <FileUploader name="from inside FileUploader" />
             </StyledContainer>,
             {
